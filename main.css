@@ -28,7 +28,7 @@ ul {
 }
 
 .main-page-wrapper {
-  background: url(/img/hero.png) center top no-repeat, url(/img/bottom-pic.png) center bottom 334px no-repeat;
+  background: url(img/hero.png) center top no-repeat, url(img/bottom-pic.png) center bottom 334px no-repeat;
 }
 
 a {
@@ -316,13 +316,13 @@ padding-top: 30px;
   /* margin-right: 21px; */
 }
 .news__item:first-of-type {
-  background-image: url('/img/news-1-camera.png');
+  background-image: url('img/news-1-camera.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .news__item:last-of-type {
-  background-image: url('/img/news-2-wedding.png');
+  background-image: url('img/news-2-wedding.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -412,7 +412,7 @@ margin-bottom: 5px;
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url("/img/about-us-cameraman.png") center center / cover no-repeat;
+  background: url("img/about-us-cameraman.png") center center / cover no-repeat;
 }
 
 .about__desc {
