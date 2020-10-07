@@ -1,0 +1,40 @@
+.btn--color--red {
+    background-color: #FF3D00;
+    border-radius: 35px;
+    padding: 16px 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: middle;
+}
+  
+.btn--color--red:hover {
+    background-color: #DA0100;
+}
+  
+.wrapper__button {
+  text-align: center;
+  padding-top: 30px;
+}
+  
+.btn--color--white {
+    display: inline-block;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #FF5500;
+    border-radius: 35px;
+    padding: 16px 50px;
+    color: #FF5500;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: middle;
+}
+  
+.btn--color--white:hover {
+    background-color: #FF5500;
+    color: white;
+}
+  

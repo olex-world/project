@@ -1,0 +1,56 @@
+.news__item {
+    min-height: 394px;
+    max-width: 557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 2%;
+}
+  
+.news__item:first-of-type {
+    background-image: url('/img/news-1-camera.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news__item:last-of-type {
+    background-image: url('/img/news-2-wedding.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-news__text-content {
+    padding: 25px 30px;
+}
+
+.single-news__date {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.single-news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__news {
+    margin-bottom: 140px;
+}
