@@ -37,6 +37,8 @@
 
 .dropdown__list {
    text-align: left;
+   color: black;
+   text-decoration: none;
 }
 
 .dropdown__menu {
