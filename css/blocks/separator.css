@@ -1,5 +1,5 @@
 .separator {
-  background: #373737 url("/img/party.png") right -36% bottom no-repeat;
+  background: #373737 url("../../img/party.png") right -36% bottom no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;
