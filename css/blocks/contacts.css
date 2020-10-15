@@ -22,3 +22,38 @@
     color: #9A9A9A;
     font-size: 11px;
 }
+
+.contacts__dropdown-title {
+   position: relative;
+}
+
+.contacts__dropdown-title:hover .dropdown__menu{
+   display: block;
+}
+
+.contacts__dropdown-title:hover .dropdown__item{
+   color: black;
+}
+
+.dropdown__list {
+   text-align: left;
+}
+
+.dropdown__menu {
+   position: absolute;
+   background: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 5px 10px 5px 30px;
+   width: 195px;
+   top: 100%;
+   display: none;
+   margin-top: 20px;
+}
+
+.dropdown__menu:before {
+   content: '';
+   position: absolute; /* Абсолютное позиционирование */
+   right: 45px; top: -20px; /* Положение треугольника */
+   border: 10px solid transparent; /* Прозрачные границы */
+   border-bottom: 10px solid rgba(255, 255, 255, 0.8); /* Добавляем треугольник */
+}
